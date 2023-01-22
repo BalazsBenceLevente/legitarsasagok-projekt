@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Airplane Ticket Booking</title>
+</head>
+<body>
+     <header>
+      <nav>
+        <ul>
+          <li><a href="#search-form">Search Flights</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        
+        <section id="search-form">
+        
+                <h2>Search for Flights</h2>
+                <form onsubmit="searchFlights(); return false;">
+                    <label for="from">From:</label>
+                    <input type="text" id="from" name="from">
+                    <label for="to">To:</label>
+                    <input type="text" id="to" name="to">
+                    <label for="departure-date">Departure Date:</label>
+                    <input type="date" id="departure-date" name="departure-date">
+                    <input type="submit" value="Search">
+                    <label for="passengers">Passengers:</label>
+                    <select id="passengers" name="passengers">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </form>
+        </section>
+        <section id="search-results">
+            <!-- Flight results will be displayed here -->
+        </section>
+      <section id="about-us">
+        <h2>About Us</h2>
+        <p>We are a team of travel enthusiasts who want to make booking airplane tickets as easy and stress-free as possible. We offer a wide range of flights and competitive prices to help you find the perfect trip.</p>
+      </section>
+      <section id="contact-us">
+        <h2>Contact Us</h2>
+        <p>Email: contact@airplanetickets.com</p>
+        <p>Phone: 555-555-5555</p>
+        <p>Address: 123 Main St, Anytown USA</p>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2022 Airplane Tickets</p>
+    </footer>
+    
+    <!-- JAVASCRIPT -->
+    
+    
+    <script>
+        /*function searchFlights() {
+            // Get the form data
+            var from = document.getElementById("from").value;
+            var to = document.getElementById("to").value;
+            var departureDate = document.getElementById("departure-date").value;
+    
+            // Validate the form data
+            if (!from || !to || !departureDate) {
+                alert("Please fill in all the fields.");
+                return;
+            }
+    
+            // Send the form data to the server using an AJAX request
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "search-flights.php");
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    // Get the flight results from the server
+                    var searchResults = JSON.parse(xhr.responseText);
+    
+                    // Display the flight results in the search-results section
+                    var resultsContainer = document.getElementById("search-results");
+                    resultsContainer.innerHTML = "";
+                    for (var i = 0; i < searchResults.length; i++) {
+                        var flight = searchResults[i];
+                        resultsContainer.innerHTML += "<p>" + flight.from + " to " + flight.to + " on " + flight.date + "</p>";
+                    }
+                }
+            };
+            xhr.send("from=" + from + "&to=" + to + "&departure-date=" + departureDate);
+        }*/
+
+
+
+
+        function searchFlights() {
+    // Get the form data
+    var from = document.getElementById("from").value;
+    var to = document.getElementById("to").value;
+    var departureDate = document.getElementById("departure-date").value;
+    var passengers = document.getElementById("passengers").value;
+
+    // Validate the form data
+    if (!from || !to || !departureDate) {
+        alert("Please fill in all the fields.");
+        return;
+    }
+
+    // Build the API url
+    var url = "https://api.example.com/search?from=" + from + "&to=" + to + "&departure-date=" + departureDate + "&passengers=" + passengers + "&api_key=YOUR_API_KEY";
+
+    // Send the API request
+    fetch(url)
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(data) {
+            // Display the flight results
+            var resultsContainer = document.getElementById("search-results");
+            resultsContainer.innerHTML = "";
+            for (var i = 0; i < data.flights.length; i++) {
+                var flight = data.flights[i];
+                resultsContainer.innerHTML += "<div>From: " + flight.from + " To: " + flight.to + " Departure Date: " + flight.departureDate + " Passengers: " + flight.passengers + " Price: " + flight.price + "</div>";
+            }
+        })
+        .catch(function(error) {
+            console.log(error);
+        });
+}
+    </script>
+</body>
+</html>

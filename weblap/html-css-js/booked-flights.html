@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booked Flights</title>
+    <link rel="stylesheet" type="text/css" href="booked-flights.css">
+</head>
+<body>
+    <header>
+        <h1>Booked Flights</h1>
+    </header>
+
+    <section id="flight-list">
+        <!-- Flight details will be displayed here -->
+    </section>
+
+    <script>
+        // Fetch the booked flights from the server
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "booked-flights.php");
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                // Get the flight details from the server
+                var flightDetails = JSON.parse(xhr.responseText);
+
+                // Display the flight details in the flight-list section
+                var flightList = document.getElementById("flight-list");
+                flightList.innerHTML = "";
+                for (var i = 0; i < flightDetails.length; i++) {
+                    var flight = flightDetails[i];
+                    flightList.innerHTML += "<div class='flight-item'>" +
+                                              "<p>From: " + flight.from + "</p>" +
+                                              "<p>To: " + flight.to + "</p>" +
+                                              "<p>Departure Date: " + flight.departure_date + "</p>" +
+                                              "<p>Passengers: " + flight.passengers + "</p>" +
+                                              "<p>Price: " + flight.price + "</p>" +
+                                            "</div>"
+                }
+            }
+        };
+        xhr.send();
+
+        function searchFlights() {
+    // Get the form data
+    var from = document.getElementById("from").value;
+    var to = document.getElementById("to").value;
+    var departureDate = document.getElementById("departure-date").value;
+    var passengers = document.getElementById("passengers").value;
+
+    // Validate the form data
+    if (!from || !to || !departureDate) {
+        alert("Please fill in all the fields.");
+        return;
+    }
+
+    // Build the API url
+    var url = "https://api.example.com/search?from=" + from + "&to=" + to + "&departure-date=" + departureDate + "&passengers=" + passengers + "&api_key=YOUR_API_KEY";
+
+    // Send the API request
+    fetch(url)
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(data) {
+            // Display the flight results
+            var resultsContainer = document.getElementById("search-results");
+            resultsContainer.innerHTML = "";
+            for (var i = 0; i < data.flights.length; i++) {
+                var flight = data.flights[i];
+                resultsContainer.innerHTML += "<div>From: " + flight.from + " To: " + flight.to + " Departure Date: " + flight.departureDate + " Passengers: " + flight.passengers + " Price: " + flight.price + "</div>";
+            }
+        })
+        .catch(function(error) {
+            console.log(error);
+        });
+}
+    </script>
+</body>
+</html>

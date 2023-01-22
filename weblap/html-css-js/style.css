@@ -1,0 +1,182 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 200px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(8, 121, 173);
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section#search-form {
+    text-align: center;
+}
+
+section#search-form form {
+    display: inline-block;
+}
+
+section#search-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+section#search-form input[type="text"],
+section#search-form input[type="date"] {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+section#search-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+section#search-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+section#search-results {
+    text-align: center;
+}
+
+section#about-us {
+    text-align: center;
+}
+
+section#contact-us {
+    text-align: center;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    /* make the font size smaller on small screens */
+    body {
+        font-size: 0.8em;
+    }
+    /* change the layout of the search form */
+    section#search-form {
+        text-align: left;
+    }
+    section#search-form label {
+        display: inline-block;
+        width: 100px;
+    }
+}
+
+@media (max-width: 400px) {
+    /* hide the navigation menu on very small screens */
+    nav {
+        display: none;
+    }
+}
+
+/* Import a font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+/* Apply font to the entire page */
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Add background color */
+body {
+  background-color: #f0f4f7;
+}
+
+/* Add background image */
+header {
+  background-image: url(the-abandoned-dc-plane-on-solheimasandur-3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Add a cool hover effect */
+.search-form input[type="submit"] {
+  background-color: #2980b9;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.search-form input[type="submit"]:hover {
+  background-color: #3498db;
+  cursor: pointer;
+}
+
+/* Add a cool animation */
+.search-results {
+  animation: slide-in-right 0.5s ease-in-out;
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Use CSS Grid to create a responsive layout */
+.search-results {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+/* Use media queries to apply different styles based on screen size */
+@media (max-width: 768px) {
+  .search-results {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+header{
+
+}
+  
