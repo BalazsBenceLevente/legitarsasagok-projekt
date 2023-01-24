@@ -1,0 +1,49 @@
+{
+    "jaratok": [
+        {
+            "id": 1,
+            "legitarsasag": "Wizz Air",
+            "honnan": "Budapest",
+            "hova": "London",
+            "tavolsag": 1450,
+            "ido": 145,
+            "dij": 13
+        },
+        {
+            "id": 2,
+            "legitarsasag": "British Airways",
+            "honnan": "Budapest",
+            "hova": "London",
+            "tavolsag": 1450,
+            "ido": 155,
+            "dij": 14
+        },
+        {
+            "id": 3,
+            "legitarsasag": "Airfrance",
+            "honnan": "Budapest",
+            "hova": "Párizs",
+            "tavolsag": 1240,
+            "ido": 145,
+            "dij": 46
+        },
+        {
+            "id": 4,
+            "legitarsasag": "Austrian",
+            "honnan": "Budapest",
+            "hova": "Bécs",
+            "tavolsag": 210,
+            "ido": 50,
+            "dij": 290
+        },
+        {
+            "id": 5,
+            "legitarsasag": "Brussels",
+            "honnan": "Budapest",
+            "hova": "Koppenhága",
+            "tavolsag": 1010,
+            "ido": 270,
+            "dij": 56
+        }
+    ]
+}
