@@ -1,0 +1,88 @@
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\bin\Debug\net5.0-windows\Flights.exe
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\bin\Debug\net5.0-windows\Flights.deps.json
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\bin\Debug\net5.0-windows\Flights.runtimeconfig.json
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\bin\Debug\net5.0-windows\Flights.runtimeconfig.dev.json
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\bin\Debug\net5.0-windows\Flights.dll
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\bin\Debug\net5.0-windows\ref\Flights.dll
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\bin\Debug\net5.0-windows\Flights.pdb
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\obj\Debug\net5.0-windows\Flights.csproj.AssemblyReference.cache
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\obj\Debug\net5.0-windows\Flights_MarkupCompile.cache
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\obj\Debug\net5.0-windows\Flights_MarkupCompile.lref
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\obj\Debug\net5.0-windows\Flights.g.resources
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\obj\Debug\net5.0-windows\Flights.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\obj\Debug\net5.0-windows\Flights.AssemblyInfoInputs.cache
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\obj\Debug\net5.0-windows\Flights.AssemblyInfo.cs
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\obj\Debug\net5.0-windows\Flights.csproj.CoreCompileInputs.cache
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\obj\Debug\net5.0-windows\Flights.dll
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\obj\Debug\net5.0-windows\ref\Flights.dll
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\obj\Debug\net5.0-windows\Flights.pdb
+C:\Users\gurbia\Documents\Levi\project\Flights\Flights\obj\Debug\net5.0-windows\Flights.genruntimeconfig.cache
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\bin\Debug\net5.0-windows\Flights.exe
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\bin\Debug\net5.0-windows\Flights.deps.json
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\bin\Debug\net5.0-windows\Flights.runtimeconfig.json
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\bin\Debug\net5.0-windows\Flights.runtimeconfig.dev.json
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\bin\Debug\net5.0-windows\Flights.dll
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\bin\Debug\net5.0-windows\ref\Flights.dll
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\bin\Debug\net5.0-windows\Flights.pdb
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\obj\Debug\net5.0-windows\Flights.csproj.AssemblyReference.cache
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\obj\Debug\net5.0-windows\Flights_MarkupCompile.cache
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\obj\Debug\net5.0-windows\Flights_MarkupCompile.lref
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\obj\Debug\net5.0-windows\Flights.g.resources
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\obj\Debug\net5.0-windows\Flights.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\obj\Debug\net5.0-windows\Flights.AssemblyInfoInputs.cache
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\obj\Debug\net5.0-windows\Flights.AssemblyInfo.cs
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\obj\Debug\net5.0-windows\Flights.csproj.CoreCompileInputs.cache
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\obj\Debug\net5.0-windows\Flights.dll
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\obj\Debug\net5.0-windows\ref\Flights.dll
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\obj\Debug\net5.0-windows\Flights.pdb
+C:\Users\levig\Desktop\project - flights\project - flights\Flights\Flights\obj\Debug\net5.0-windows\Flights.genruntimeconfig.cache
+C:\Users\levig\Desktop\project-flights\Flights\Flights\bin\Debug\net5.0-windows\Flights.exe
+C:\Users\levig\Desktop\project-flights\Flights\Flights\bin\Debug\net5.0-windows\Flights.deps.json
+C:\Users\levig\Desktop\project-flights\Flights\Flights\bin\Debug\net5.0-windows\Flights.runtimeconfig.json
+C:\Users\levig\Desktop\project-flights\Flights\Flights\bin\Debug\net5.0-windows\Flights.runtimeconfig.dev.json
+C:\Users\levig\Desktop\project-flights\Flights\Flights\bin\Debug\net5.0-windows\Flights.dll
+C:\Users\levig\Desktop\project-flights\Flights\Flights\bin\Debug\net5.0-windows\ref\Flights.dll
+C:\Users\levig\Desktop\project-flights\Flights\Flights\bin\Debug\net5.0-windows\Flights.pdb
+C:\Users\levig\Desktop\project-flights\Flights\Flights\obj\Debug\net5.0-windows\Flights.csproj.AssemblyReference.cache
+C:\Users\levig\Desktop\project-flights\Flights\Flights\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\levig\Desktop\project-flights\Flights\Flights\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\levig\Desktop\project-flights\Flights\Flights\obj\Debug\net5.0-windows\Flights_MarkupCompile.cache
+C:\Users\levig\Desktop\project-flights\Flights\Flights\obj\Debug\net5.0-windows\Flights_MarkupCompile.lref
+C:\Users\levig\Desktop\project-flights\Flights\Flights\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\levig\Desktop\project-flights\Flights\Flights\obj\Debug\net5.0-windows\Flights.g.resources
+C:\Users\levig\Desktop\project-flights\Flights\Flights\obj\Debug\net5.0-windows\Flights.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\levig\Desktop\project-flights\Flights\Flights\obj\Debug\net5.0-windows\Flights.AssemblyInfoInputs.cache
+C:\Users\levig\Desktop\project-flights\Flights\Flights\obj\Debug\net5.0-windows\Flights.AssemblyInfo.cs
+C:\Users\levig\Desktop\project-flights\Flights\Flights\obj\Debug\net5.0-windows\Flights.csproj.CoreCompileInputs.cache
+C:\Users\levig\Desktop\project-flights\Flights\Flights\obj\Debug\net5.0-windows\Flights.dll
+C:\Users\levig\Desktop\project-flights\Flights\Flights\obj\Debug\net5.0-windows\ref\Flights.dll
+C:\Users\levig\Desktop\project-flights\Flights\Flights\obj\Debug\net5.0-windows\Flights.pdb
+C:\Users\levig\Desktop\project-flights\Flights\Flights\obj\Debug\net5.0-windows\Flights.genruntimeconfig.cache
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\bin\Debug\net5.0-windows\Flights.exe
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\bin\Debug\net5.0-windows\Flights.deps.json
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\bin\Debug\net5.0-windows\Flights.runtimeconfig.json
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\bin\Debug\net5.0-windows\Flights.runtimeconfig.dev.json
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\bin\Debug\net5.0-windows\Flights.dll
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\bin\Debug\net5.0-windows\ref\Flights.dll
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\bin\Debug\net5.0-windows\Flights.pdb
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\obj\Debug\net5.0-windows\Flights.csproj.AssemblyReference.cache
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\obj\Debug\net5.0-windows\Flights_MarkupCompile.cache
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\obj\Debug\net5.0-windows\Flights_MarkupCompile.lref
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\obj\Debug\net5.0-windows\Flights.g.resources
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\obj\Debug\net5.0-windows\Flights.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\obj\Debug\net5.0-windows\Flights.AssemblyInfoInputs.cache
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\obj\Debug\net5.0-windows\Flights.AssemblyInfo.cs
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\obj\Debug\net5.0-windows\Flights.csproj.CoreCompileInputs.cache
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\obj\Debug\net5.0-windows\Flights.dll
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\obj\Debug\net5.0-windows\ref\Flights.dll
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\obj\Debug\net5.0-windows\Flights.pdb
+C:\Users\levig\Desktop\legitarsasagok-projekt\legitarsasagok\Flights\Flights\obj\Debug\net5.0-windows\Flights.genruntimeconfig.cache

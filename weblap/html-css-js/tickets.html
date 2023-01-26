@@ -20,14 +20,27 @@
     </header>
     <main>
         
-        <section id="search-form">
-        
+   
+ 
+
+    
                 <h2>Search for Flights</h2>
+                <br>
                 <form onsubmit="searchFlights(); return false;">
-                    <label for="from">From:</label>
-                    <input type="text" id="from" name="from">
-                    <label for="to">To:</label>
-                    <input type="text" id="to" name="to">
+                  <section id="search-form">
+
+          <p>From</p>
+                  <!--The SELECT element.-->
+                <select id="Fr" onchange="show(this)" onclick="populateSelect(this.onclick=null)">
+                  <option value="">-- Select --</option>
+                </select>
+          <br>
+          <p>To</p>
+          
+                <select id="T" onchange="show(this)" onclick="populateSelect(this.onclick=null)">
+                  <option value="">-- Select --</option>
+                </select>
+
                     <label for="departure-date">Departure Date:</label>
                     <input type="date" id="departure-date" name="departure-date">
                     <input type="submit" value="Search">
@@ -65,40 +78,58 @@
     <script>
 
 
-        function searchFlights() {
-    // Get the form data
-    var from = document.getElementById("from").value;
-    var to = document.getElementById("to").value;
-    var departureDate = document.getElementById("departure-date").value;
-    var passengers = document.getElementById("passengers").value;
 
-    // Validate the form data
-    if (!from || !to || !departureDate) {
-        alert("Please fill in all the fields.");
-        return;
+function populateSelect() {
+    // the json
+    let flights = [
+      {  "ID": "1",
+        "From": "Budapest",
+      },
+      { "ID": "2",
+        "From": "Budapest",
+      },
+      { "ID": "3",
+      "From": "London",
+      },
+    ];
+
+    let todo = [
+      {  "ID": "1",
+        "To": "London" 
+      },
+      { "ID": "2",
+        "To": "London" 
+      },
+      { "ID": "3",
+        "To": "Madrid" 
+      },
+    ];
+      /* From */
+    let ele = document.getElementById('Fr');
+    for (let i = 0; i < flights.length; i++) {
+      // populate select element with json.
+      ele.innerHTML = ele.innerHTML +
+        '<option value="' + flights[i]['ID'] + '">' + flights[i]['From'] + '</option>';
     }
+  }
+      /* To */
 
-    // Build the API url
-    var url = "https://api.example.com/search?from=" + from + "&to=" + to + "&departure-date=" + departureDate + "&passengers=" + passengers + "&api_key=YOUR_API_KEY";
+  let valami = document.getElementById('T');
+    for (let i = 0; i < todo.length; i++) {
+      // populate select element with json.
+      valamo.innerHTML = valami.innerHTML +
+        '<option value="' + todo[i]['ID'] + '">' + todo[i]['To'] + '</option>';
+    }
+  
 
-    // Send the API request
-    fetch(url)
-        .then(function(response) {
-            return response.json();
-        })
-        .then(function(data) {
-            // Display the flight results
-            var resultsContainer = document.getElementById("search-results");
-            resultsContainer.innerHTML = "";
-            for (var i = 0; i < data.flights.length; i++) {
-                var flight = data.flights[i];
-                resultsContainer.innerHTML += "<div>From: " + flight.from + " To: " + flight.to + " Departure Date: " + flight.departureDate + " Passengers: " + flight.passengers + " Price: " + flight.price + "</div>";
-            }
-        })
-        .catch(function(error) {
-            console.log(error);
-        });
-}
+  function show(ele) {
+    // get the selected value from <select> element and show it.
+    let msg = document.getElementById('msg');
+    console.log( msg.innerHTML = 'From: <b>' + ele.options[ele.selectedIndex].text + '</b> </br>' +
+      'ID: <b>' + ele.value + '</b>');
+  }
+
+
     </script>
 </body>
 </html>

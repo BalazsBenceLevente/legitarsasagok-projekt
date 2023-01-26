@@ -1,0 +1,48 @@
+{
+  "city": [
+    {
+      "id": 1,
+      "name": "Budapest",
+	  "population": 1800000
+    },
+    {
+      "id": 2,
+      "name": "London",
+	  "population": 8800000
+    },
+    {
+      "id": 3,
+      "name": "Madrid",
+	  "population": 4500000
+    }
+  ],
+  "flight": [
+    {
+      "id": 1,
+      "company": "Wizz Air",
+	  "from": "Budapest",
+	  "to": "London",
+	  "distance": 1450,
+	  "flight_time": 145,
+      "km_price": 6
+    },
+    {
+      "id": 2,
+      "company": "British Airways",
+	  "from": "Budapest",
+	  "to": "London",
+	  "distance": 1450,
+	  "flight_time": 145,
+      "km_price": 7
+    },
+    {
+      "id": 3,
+      "company": "British Airways",
+	  "from": "London",
+	  "to": "Madrid",
+	  "distance": 1050,
+	  "flight_time": 105,
+      "km_price": 6
+    }
+  ]
+}
