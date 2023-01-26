@@ -22,7 +22,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: rgb(8, 121, 173);
+    color: #eee;
 }
 
 main {
@@ -175,7 +175,10 @@ header {
   }
 }
 
-header{
+.but{
+  background: #333;
+  color: aliceblue;
+  margin: 20px;
+  width: 20;
 
 }
-  

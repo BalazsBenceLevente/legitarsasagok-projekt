@@ -12,17 +12,14 @@
      <header>
       <nav>
         <ul>
-          <li><a href="#search-form">Search Flights</a></li>
-          <li><a href="#about-us">About Us</a></li>
-          <li><a href="#contact-us">Contact Us</a></li>
+          <button class="but"><li><a href="#search-form">Search Flights</a></li></button>
+          <button class="but"><li><a href="#about-us">About Us</a></li></button>
+          <button class="but"><li><a href="#contact-us">Contact Us</a></li></button>
         </ul>
       </nav>
     </header>
     <main>
         
-   
- 
-
     
                 <h2>Search for Flights</h2>
                 <br>
@@ -31,13 +28,13 @@
 
           <p>From</p>
                   <!--The SELECT element.-->
-                <select id="Fr" onchange="show(this)" onclick="populateSelect(this.onclick=null)">
+                <select id="Fr" onchange="show(this)" onclick="Select(this.onclick=null)">
                   <option value="">-- Select --</option>
                 </select>
           <br>
           <p>To</p>
           
-                <select id="T" onchange="show(this)" onclick="populateSelect(this.onclick=null)">
+                <select id="T" onchange="show(this)" onclick="Select2(this.onclick=null)">
                   <option value="">-- Select --</option>
                 </select>
 
@@ -77,10 +74,30 @@
     
     <script>
 
+function Select2(){
+    // json
+  let todo = [
+      {  "ID": "1",
+        "To": "London" 
+      },
+      { "ID": "2",
+        "To": "London" 
+      },
+      { "ID": "3",
+        "To": "Madrid" 
+      },
+    ];
 
+    let valami = document.getElementById('T');
+    for (let i = 0; i < todo.length; i++) {
+      // select element with json.
+      valami.innerHTML = valami.innerHTML +
+        '<option value="' + todo[i]['ID'] + '">' + todo[i]['To'] + '</option>';
+    }
+}
 
-function populateSelect() {
-    // the json
+function Select() {
+    // json
     let flights = [
       {  "ID": "1",
         "From": "Budapest",
@@ -93,33 +110,18 @@ function populateSelect() {
       },
     ];
 
-    let todo = [
-      {  "ID": "1",
-        "To": "London" 
-      },
-      { "ID": "2",
-        "To": "London" 
-      },
-      { "ID": "3",
-        "To": "Madrid" 
-      },
-    ];
+    
       /* From */
     let ele = document.getElementById('Fr');
     for (let i = 0; i < flights.length; i++) {
-      // populate select element with json.
+      //  select element with json.
       ele.innerHTML = ele.innerHTML +
         '<option value="' + flights[i]['ID'] + '">' + flights[i]['From'] + '</option>';
     }
   }
       /* To */
 
-  let valami = document.getElementById('T');
-    for (let i = 0; i < todo.length; i++) {
-      // populate select element with json.
-      valamo.innerHTML = valami.innerHTML +
-        '<option value="' + todo[i]['ID'] + '">' + todo[i]['To'] + '</option>';
-    }
+
   
 
   function show(ele) {

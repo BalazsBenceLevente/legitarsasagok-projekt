@@ -2,3 +2,5 @@ id,company,from,to,distance,flight_time,km_price
 1,Wizz Air,Budapest,London,1450,145,6
 2,British Airways,Budapest,London,1450,145,7
 3,British Airways,London,Madrid,1050,105,6
+4,Austrian Airlines,Budapest,Bécs,500,65,5
+5,Austrian Airlines,Bécs,Madrid,1200,135,6
