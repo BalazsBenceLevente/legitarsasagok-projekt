@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="web.css">
     <title>Adat hozzáadása</title>
 </head>
 <body>
     <h1>Adj hozzá új járatot</h1>
+    
     <form>
         <input type="text" name="Légitársaság" required placeholder="Mely légitársaság?">
         <input type="text" name="Honnan" required placeholder="Honnan indul a járat?">
         <input type="text" name="Hova" required placeholder="Hova érkezik a járat?">
-        <input type="number" name="Távolság" required placeholder="Honnan indul a járat?">
-        <input type="number" name="Idő" required placeholder="Honnan indul a járat?">
-        <input type="number" name="Díj" required placeholder="Honnan indul a járat?">
+        <input type="number" name="Távolság" required placeholder="Útvonal távolsága(km)">
+        <input type="number" name="Idő" required placeholder="Repülési idő(perc)">
+        <input type="number" name="Díj" required placeholder="Km díj forintban">
         <button>Hozzáad</button>
-
+        <a href="tickets.html">Vissza a főoldalra</a>
     </form>
+    
     <script src="js/create.js"></script>
 </body>
 </html>
