@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve-json": "json-server --watch weblap/html-css-js/db/db.json"
+    "serve-json": "json-server --watch weblap/html-css-js/db/db.json --port 5000"
   },
   "repository": {
     "type": "git",

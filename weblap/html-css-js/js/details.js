@@ -10,6 +10,7 @@ const renderDetails = async () => {
     
     `
     
+    container.innerHTML = template
 }
 
 window.addEventListener('DOMContentLoaded', () => renderJaratok());
